@@ -10,11 +10,11 @@
 
 ## docker build
 ~~~docker
-docker build -t iuccio/node-web-app:0.0.1 .
+docker build -t express .
 ~~~
 ## docker run
 ~~~docker
-docker run -p 3000:3000 --name node-js-web-app -d iuccio/node-web-app
+docker run -p 3000:3000 --name node-js-web-app -d express
 ~~~
 **-p**: specifies the port that will expose (e.g. -p 3000:3000 -> localhost:3000)
 
